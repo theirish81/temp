@@ -4,6 +4,7 @@
   <configs>
   </configs>
   <sequence name="main">
+  	<comment>Developers workflow demo</comment>
     <get url="${protocol}${domain}${endpoint}" params="[:]" var="payload" mode="json" gen="rag">
       <header name="key" value="${key}" gen="rag"/>
     </get>
